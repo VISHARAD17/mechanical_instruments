@@ -90,10 +90,20 @@
   padding: 8px;
 }
 
+.mech-btn a {
+  text-decoration: none;
+  color: #2ead33;
+}
+
 .mech-btn:hover {
     background-color: #2ead33;
     color: white;
     transition: 0.5s;
+}
+
+.mech-btn:hover .hi{
+  color: white;
+  transition: 0.5s;
 }
 
 @media only screen and (max-width: 800px){
